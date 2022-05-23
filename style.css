@@ -9,6 +9,8 @@
 
 /* MOBILE */
 
+/* Header fisso */
+
 header{
     width: 100%;
     background-color: #0084fd;
@@ -30,9 +32,77 @@ header{
     width: 70px;
 }
 
-.hamburger{
+.menu{
     color: #fff;
     font-size: 20px;
+}
+
+/* Spazio main dall'header */
+
+main{
+    margin-top: 100px;
+}
+
+/* Sezione 1 con box informazioni */
+
+.container_flex{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box{
+    width: auto;
+    background-color: #b5ddff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.first{
+    text-align: start;
+}
+
+.first img{
+    width: 100%;
+    margin-bottom: -25px;
+}
+
+.box h3{
+    font-size: 24px;
+    color: #0084fd;
+    margin: 15px 0;
+}
+
+.box p{
+    font-size: 14px;
+    color: #5e7485;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: #0084fd;
+}
+
+.box .icon{
+    color: #0084fd;
+    font-size: 100px;
 }
 
 /* TABLET 768px */
