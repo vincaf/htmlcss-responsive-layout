@@ -6,3 +6,37 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
+
+/* MOBILE */
+
+header{
+    width: 100%;
+    background-color: #0084fd;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.header_container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.hamburger{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* TABLET 768px */
+
+/* DESKTOP 992px */
+
+/* LARGE DESKTOP 1200px */
