@@ -72,7 +72,7 @@ main{
     margin-bottom: -25px;
 }
 
-.box h3{
+h3{
     font-size: 24px;
     color: #0084fd;
     margin: 15px 0;
@@ -103,6 +103,64 @@ main{
 .box .icon{
     color: #0084fd;
     font-size: 100px;
+}
+
+/* Sezione 2 con sfondo colorato: testi, immagine e un box */
+
+#section2{
+    background-color: #9792e4;
+    margin-top: 50px;
+}
+
+#section2 img{
+    width: 100%;
+    margin: 30px 0;
+}
+
+h2{
+    font-size: 34px;
+    color: #fff;
+    margin: 50px 0;
+}
+
+#section2 p{
+    font-size: 15px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+#section2 .box{
+    margin-bottom: 40px;
+}
+
+#section2 .white{
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white h3{
+    color: #111;
+    margin: 0;
+}
+
+#section2 .box p{
+    color: #4b4b4b;
+    font-size: 18px;
+}
+
+.arrow{
+    background-color: #9792e4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 /* TABLET 768px */
