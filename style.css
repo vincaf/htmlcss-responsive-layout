@@ -345,6 +345,34 @@ h1{
     margin-bottom: 50px;
 }
 
+/* Footer */
+
+footer{
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p{
+    font-size: 15px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+footer div{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer a{
+    color: #9792e4;
+}
+
+
+
 /* TABLET 768px */
 
 /* DESKTOP 992px */
