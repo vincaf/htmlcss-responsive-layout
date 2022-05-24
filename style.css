@@ -170,7 +170,7 @@ h2{
     text-align: center;
 }
 
-#section3 .subtitle{
+.subtitle{
     font-size: 20px;
     font-weight: 400;
 }
@@ -254,7 +254,7 @@ h2{
     margin-top: 30px;
 }
 
-#section5 h1{
+h1{
     font-size: 50px;
     color: #9792e4;
     margin: 20px 0 ;
@@ -295,6 +295,54 @@ h2{
 #section5 .button{
     width: 70%;
     padding: 10px 15px;
+}
+
+/* Sezione 6 testi e pulsante grande */
+
+#section6{
+    margin-top: 30px;
+    background-color: #9792e4;
+    text-align: center;
+}
+
+#section6 .subtitle{
+    color: #cccaca;
+    margin-top: 40px;
+}
+
+#section6 h2{
+    margin: 20px 0;
+}
+
+#section6 h1{
+    color: #fdc15f;
+    margin: 0;
+    font-size: 60px;
+}
+
+#section6 p{
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.big{
+    background-color: #fff;
+    color: #9792e4;
+    padding: 20px 40px;
+    border-radius: 50px;
+    width: 80%;
+    font-size: 18px;
+    align-self: center;
+    margin-bottom: 0px;
+}
+
+#section6 a{
+    color: #fff;
+}
+
+#section6 .copyright{
+    margin-bottom: 50px;
 }
 
 /* TABLET 768px */
