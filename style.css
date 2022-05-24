@@ -205,7 +205,47 @@ h2{
 }
 
 .purple:last-child{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+}
+
+/* Sezione 4 con box info numerate */
+
+#section4{
+    background-color: #9792e4;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#section4 .white{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#section4 .number{
+    font-size: 50px;
+    color: #9792e4;
+}
+
+#section4 .white h3{
+    color: #9792e4;
+    margin: 20px 0 0 0;
+}
+
+#section4 .white p{
+    color: #9f9f9f;
+    line-height: 30px;
+    text-align: start;
+    font-weight: 600;
+}
+
+#section4 .button{
+    margin: 0 0 10px 0;
+}
+
+#section4 .box:last-child{
+    margin-bottom: 50px;
 }
 
 /* TABLET 768px */
