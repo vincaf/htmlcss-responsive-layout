@@ -542,5 +542,31 @@ footer a{
 /* LARGE DESKTOP 1200px */
 
 @media all and (min-width: 1200px) {
+    .container_flex{
+        max-width: 1200px;
+    }
 
+    #section1 .container_flex .box:first-child {
+        width: 65%;
+        position: relative;
+    }
+
+    #section1 .first img {
+        position: absolute;
+        right: 75px;
+        bottom: 25px;
+    }
+
+    #section1 .container_flex .box img {
+        width: 35%;
+    }
+
+    #section1 .blue {
+        position: absolute;
+        bottom: 0;
+    }
+
+    #section1 .first p{
+        width: 35%;
+    }
 }
