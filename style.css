@@ -293,7 +293,7 @@ h1{
 }
 
 #section5 .button{
-    width: 70%;
+    width: 71%;
     padding: 10px 15px;
 }
 
@@ -380,8 +380,88 @@ footer a{
 /* TABLET 768px */
 
 @media all and (min-width: 768px) {
+    #section1 .container_flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
-}    
+    #section1 .container_flex .box:first-child{
+        width: 65%;
+    }
+
+    #section1 .container_flex .box{
+        width: 32%;
+    }
+
+    #section1 .container_flex .box img{
+        width: 60%;
+    }
+
+    #section3 .box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: start;
+        padding: 0;
+    }
+
+    #section3 .box img{
+        width: 30%;
+    }
+
+    #section3 .box p{
+        width: 60%;
+    }
+
+    #section3 .box h3{
+        position: relative;
+        bottom: 70px;
+    }
+
+    #section4 .container_flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #section4 .container_flex .box{
+        width: 48%;
+    }
+
+    #section4 .box:last-child{
+        margin-bottom: auto;
+    }
+
+    #section5 .container_flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #section5 .container_flex .quote{
+        width: 45%;
+    }
+
+    #section5 .container_flex .sx{
+        width: 45%;
+    }
+
+    #section5 .quote .fa-quote-left{
+        font-size: 80px;
+        position: relative;
+        left: -50px;
+        bottom: 150px;
+        color: #9792e4;
+    }
+
+    #section5 .quote .fa-linkedin{
+        font-size: 14px;
+        color: #fff;
+        position: static;
+    }
+
+}
 
 /* DESKTOP 992px */
 
