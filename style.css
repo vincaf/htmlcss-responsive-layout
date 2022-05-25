@@ -37,6 +37,10 @@ header{
     font-size: 20px;
 }
 
+.menu .desktop{
+    display: none;
+}
+
 /* Spazio main dall'header */
 
 main{
@@ -482,6 +486,36 @@ footer a{
 
 @media all and (min-width: 992px) {
     
+    .header_container{
+        max-width: 1200px;
+    }
+
+    .container_flex{
+        max-width: 1200px;
+    }
+
+    .menu .fa-solid{
+        display: none;
+    }
+
+    .menu .desktop{
+        display:inline-block;
+    }
+
+    .menu .desktop li{
+        display: inline-block;
+        padding: 0 10px;
+        list-style: none;
+        font-size: 16px;
+    }
+
+    .menu .desktop li:last-child{
+        padding: 5px 10px;
+        color: #111;
+        background-color: #fff;
+        border-radius: 50px;
+    }
+
     #section2 .container_flex{
         flex-direction: row;
         flex-wrap: wrap;
@@ -542,10 +576,7 @@ footer a{
 /* LARGE DESKTOP 1200px */
 
 @media all and (min-width: 1200px) {
-    .container_flex{
-        max-width: 1200px;
-    }
-
+    
     #section1 .container_flex .box:first-child {
         width: 65%;
         position: relative;
