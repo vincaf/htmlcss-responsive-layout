@@ -407,8 +407,11 @@ footer a{
         padding: 0;
     }
 
-    #section3 .box img{
-        width: 30%;
+    #section3 .purple img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 100%;
     }
 
     #section3 .box p{
@@ -461,13 +464,80 @@ footer a{
         position: static;
     }
 
+    #section6 .container_flex{
+        width: 60%;
+    }
+
+    #section6 .big{
+        width: 50%;
+    }
+
+    footer .container_footer{
+        width: 54%;
+    }
+
 }
 
 /* DESKTOP 992px */
 
 @media all and (min-width: 992px) {
+    
+    #section2 .container_flex{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
+    #section2 .container_flex .up{
+        width: 48%;
+    }
+
+    #section2 .container_flex .box{
+        width: 48%;
+    }
+
+    #section3 .purple{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #section3 .purple img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+
+    #section3 .box h3 {
+        position: relative;
+        bottom: 70px;
+        left: 263px;
+    }
+
+    #section3 .box p {
+        width: 70%;
+    }
+
+    #section4 h2{
+        width: 100%;
+    }
+
+    #section6 .container_flex{
+        width: 50%;
+    }
+
+    #section6 .big{
+        width: 50%;
+    }
+
+    footer .container_footer{
+        width: 50%;
+    }
 }
+
+
+
 
 /* LARGE DESKTOP 1200px */
 
